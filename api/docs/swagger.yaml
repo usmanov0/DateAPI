@@ -1,0 +1,14 @@
+info:
+  contact: {}
+paths:
+  /v1/days:
+    get:
+      responses: {}
+      security:
+      - BearerAuth: []
+securityDefinitions:
+  BearerAuth:
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"
